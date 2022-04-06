@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+    color: rgb(22, 46, 46);
+    background-color: #DFDBE5;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40' viewBox='0 0 40 40'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%236525cc' fill-opacity='0.2'%3E%3Cpath d='M0 38.59l2.83-2.83 1.41 1.41L1.41 40H0v-1.41zM0 1.4l2.83 2.83 1.41-1.41L1.41 0H0v1.41zM38.59 40l-2.83-2.83 1.41-1.41L40 38.59V40h-1.41zM40 1.41l-2.83 2.83-1.41-1.41L38.59 0H40v1.41zM20 18.6l2.83-2.83 1.41 1.41L21.41 20l2.83 2.83-1.41 1.41L20 21.41l-2.83 2.83-1.41-1.41L18.59 20l-2.83-2.83 1.41-1.41L20 18.59z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+    
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.nav-menu {
+    margin-top: 30px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+
+
+}
+.nav-menu ul {
+    display: flex;
+    list-style: none;
+    
+}
+
+.nav-menu ul li {
+
+    padding: 15% ;
+ 
+}
+.nav-menu ul li:hover{
+    transform: scale(1.2);
+    transition: all 0.5s ;
+}
+.nav-menu ul.nav-list {
+    flex: -1;
+    
+}
+
+.banner{
+    width: 100%;
+    height: 34rem;
+    background: url(./img/banner.jpg) no-repeat center center/cover; 
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aqua;
+    justify-content:flex-end;
+    border-radius: 15px;
+
+}
+hr{
+    margin: 10px 0;
+}
+
+
+/*carrete de imagenes*/
+
+.menu-img {
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 4rem;
+    margin-top: 30px;
+    margin-left: 8rem;
+    
+    
+    
+}
+
+.menu-img img {
+    width: 100%;
+    
+
+}
+.solidchip1 {
+    border-style: outset;
+    color: black;
+}
+.solidchip2 {
+    border-style: outset;
+    
+    color: #000
+}
+ .solidchip3 {
+     border-style: outset;
+     
+     color:#000;
+
+ }
+ .solidchip4 {
+     border-style: outset;
+     
+     color:#000;
+ }
+h3 {
+    font-size:x-large
+}
+.gracias-container {
+    width: 100%;
+    display: flex;
+    margin-top: 3%;
+}
+.gracias img {
+    width: 85%;
+    display: flex;
+ 
+}
+.container{
+    margin-right: 2rem;
+}
+
+
+
+.footer-container {
+    border-style: outset;
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
