@@ -135,7 +135,10 @@ h3 {
     margin-bottom: 2rem;
 }
 
-
+.solidchip1:hover{
+    transform: translateX(15px) translateY(15px);
+    transition: all 1s ease;
+}
 
 
 
